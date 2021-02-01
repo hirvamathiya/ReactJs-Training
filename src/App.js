@@ -41,7 +41,7 @@ const App =()=>
           <ol>
             {
               items.map((itemval,index)=>{
-                return <Todolist key={index} id={index} text={itemval}  onSelect={deleteItems}    />;
+                return <Todolist key={index} id={index} text={itemval}  onSelect={deleteItems}   />;
               })
             }
           </ol>
@@ -52,7 +52,7 @@ const App =()=>
       </div>
       </>
     );
-    
+
 };
 
 export default App;
