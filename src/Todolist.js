@@ -2,10 +2,8 @@ import React from 'react';
 
 const Todolist = (props) => {
     
-   
-
     return(
-     <>  
+    <>  
     <div className="todo__style">
     <i className="fa fa-times" aria-hidden="true" 
     onClick={ ()=>{
