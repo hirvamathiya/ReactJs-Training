@@ -1,0 +1,31 @@
+.errorMsg{
+    text-align: center;
+    color: snow;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box
+{
+    text-align: center;
+    padding-top: 50px;
+    border-radius:1.5rem;
+    border: 1px solid slategrey;
+    height: 400px;
+    width: 400px;
+    background-color: slategray;
+    color: snow;
+    margin-top: 50px;
+    margin-left: 500px;
+
+}
+.inputField
+{
+    border-radius: 1rem;
+    border: none;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+
+}
